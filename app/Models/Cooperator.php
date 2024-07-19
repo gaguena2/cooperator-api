@@ -10,7 +10,7 @@ class Cooperator extends Model
     protected $table = 'cooperators';
 
     protected $fillable = [
-        'id','name', 'document', 'email', 'phoneNumber',
+        'id','coop_name', 'coop_document', 'coop_email', 'coop_phoneNumber',
     ];
 
 }

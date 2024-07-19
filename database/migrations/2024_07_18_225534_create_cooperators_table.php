@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('cooperators', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name', 120);
-            $table->string('document', 9);
-            $table->string('email', 120);
-            $table->string('phoneNumber', 14);
+            $table->string('coop_name', 120);
+            $table->string('coop_document', 9);
+            $table->string('coop_email', 120);
+            $table->string('coop_phoneNumber', 14);
             $table->timestamps();
         });
     }
